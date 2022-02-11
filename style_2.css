@@ -1,0 +1,60 @@
+.container {
+  border: 3px solid black;
+  width: 900px;
+}
+
+.firstrow,
+.secondrow,
+.thirdrow,
+.fourthrow {
+  height: 100px;
+}
+
+.firstrow {
+  display: flex;
+}
+
+.box1 {
+  background-color: orange;
+  flex-basis: 100%;
+}
+
+.box2 {
+  background-color: yellow;
+  flex-basis: 100%;
+}
+
+.secondrow {
+  background-color: green;
+  flex-basis: 100%;
+}
+
+.thirdrow {
+  display: flex;
+}
+
+.orangebox {
+  background-color: orange;
+  flex-basis: 100%;
+}
+
+.yellowbox {
+  background-color: yellow;
+  flex-basis: 100%;
+}
+
+.redbox {
+  background-color: red;
+  flex-basis: 100%;
+}
+
+.bluebox {
+  background-color: blue;
+  flex-basis: 100%;
+}
+
+.fourthrow {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
